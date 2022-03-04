@@ -1,3 +1,5 @@
+/* Work on header and article texts */
+
 html,
 body {
   margin: 0;
@@ -16,7 +18,8 @@ body {
 /*  Typography */
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: azure;
   text-shadow: 2px 2px 10px;
@@ -31,12 +34,6 @@ h2 {
   font-size: 3rem;
 }
 
-h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: azure;
-  font-size: 2rem;
-}
-
 p,
 li {
   font-size: 1.6rem;
@@ -48,7 +45,8 @@ li {
 /* Header Layout */
 
 nav,
-article {
+article,
+footer {
   background-color: #cf3708;
   padding: 2%;
 }
@@ -99,4 +97,20 @@ nav a:hover {
 
 article {
   flex: 4;
+}
+
+footer {
+  /* Postioning */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
 }
