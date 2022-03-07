@@ -114,11 +114,10 @@ figure img {
 }
 
 figure a {
-  position: relative;
+  position: absolute;
   bottom: 0;
-  left: 20px;
+  left: 0;
   right: 0;
-  top: 20px;
   padding: 5rem 1rem 1rem;
 }
 
